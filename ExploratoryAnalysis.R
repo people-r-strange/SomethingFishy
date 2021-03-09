@@ -47,3 +47,12 @@ international <- Phone_log %>%
 #Filter numbers other than 509 area code 
 outsider_call <- Phone_log %>%
   filter(str_detect(NUMBERCALLED,'509', negate = TRUE))
+
+#Visualization of outside call 
+ggplot(outsider_call, aes(x=NUMBERCALLED, fill=TYPE)) + 
+  geom_bar() +
+  labs( 
+    title = "Phone Calls Made to non-Alderwood Numbers",
+    x = "Phone Number",
+    y = "Count") +
+  theme(axis.text.x = element_text(angle = 45))
