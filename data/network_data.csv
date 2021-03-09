@@ -1,0 +1,23 @@
+﻿Node,ID,Relationship,LineX,LineY,CircleY,sus_level,Date,Gossip,Article Number
+Switzerland,,T-1,3,9,9,1,,,
+Boynton,1,T-1,3,3,3,10,,,
+Boynton,1,T-2,3,3,3,10,,,
+Laurel Sulfate,2,T-2,1,1,-4,5,,,
+Boynton,1,T-3,3,3,3,10,,,
+Alejandro Von Ryker,3,T-3,3,1,-4,8,,,
+Boynton,1,T-4,3,3,3,10,,,
+Phillip Boynton,4,T-4,5,1,-4,7,,,
+Alderwood Government,5,T-5,10,8,9,4,,,
+Augustus/Bruce Rinz,6,T-5,8,3,-1,5,,,
+Alderwood Government,5,T-6,10,8,9,4,,,
+John Torch,7,T-6,13,-1,-8,2,,,
+Alderwood Government,5,T-7,10,8,9,4,,,
+Rex Luthor,8,T-7,10,5,3,7,,,
+Augustus/Bruce Rinz,6,T-8,8,3,-1,5,,,
+Switzerland,,T-8,3,9,9,1,,,
+Augustus/Bruce Rinz,6,T-9,8,3,-1,5,Feb-02,Rinz personally invests money to Boynton Company,1101243338500
+Boynton,1,T-9,3,5,3,10,Feb-02,Rinz personally invests money to Boynton Company,1101243338500
+Rex Luthor,8,T-10,10,5,3,7,Feb-02,Luthor invests money to Boynton Company,1101243338500
+Boynton,1,T-10,3,5,3,10,Feb-02,Luthor invests money to Boynton Company,1101243338500
+John Torch,7,T-11,13,-1,-8,2,Apr-04,"Sulfate caught with Torch in Starbucks, cheating scandal.",1101163356001
+Laurel Sulfate,2,T-11,1,1,-4,5,Apr-04,"Sulfate caught with Torch in Starbucks, cheating scandal right before election",1101163356001
