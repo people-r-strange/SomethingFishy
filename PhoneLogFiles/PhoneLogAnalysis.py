@@ -42,7 +42,7 @@ def callsByDate(data):
 def callsToSwitzerland(data):
   print("Phone calls made to Switzerland:")
   for call in data:
-    if (call.number).find("41") != -1:
+    if (call.number).find("41 0") != -1:
       print(call.date, call.weekday, call.number, call.receiver)
   print("\n")
 
