@@ -30,15 +30,13 @@ def phoneCallsByFrequency(data):
     currentMax = max(phonesDict, key=phonesDict.get )
     print(phonesDict[currentMax], currentMax)
     phonesDict.pop(currentMax)
-
-    print("\n")
+  print("\n")
 
 def callsByDate(data):
   date = input("What date are you insterested in? Ex.1/02/2002 \n")
   for call in data:
     if call.date == date:
       print(call.number, call.receiver)
-  
   print("\n")
 
 def callsToSwitzerland(data):
@@ -65,7 +63,7 @@ def callsToPrivateNumbers(data):
 def main():
   data = gatherData()
 
-  print("-"*10, "Welcome to the City Hall Phone Log", "-"*10)
+  print("-"*20, "Welcome to the City Hall Phone Log", "-"*20)
   print("""You can perform the following operations: \n
               + To see phone calls orderded by frequency, type in Frequency\n
               + To see phone calls by date, type in Date\n
